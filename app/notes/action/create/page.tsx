@@ -4,10 +4,10 @@ import NoteForm from '@/components/NoteForm/NoteForm';
 
 export const metadata: Metadata = {
   title: 'Create Note',
-  description: 'Create Note',
+  description: 'Create a new note to organize your thoughts and ideas',
   openGraph: {
     title: 'Create Note',
-    description: 'Create Note',
+    description: 'Create a new note to organize your thoughts and ideas',
     url: 'http://localhost:3000/notes/action/create',
     images: [
       {

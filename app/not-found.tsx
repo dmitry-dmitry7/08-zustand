@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import css from './Home.module.css';
 
 export const metadata: Metadata = {
-  title: 'Notes app',
-  description: 'A simple note app built with Next.js, React Query',
+  title: 'Not found',
+  description: 'Such page does not exist',
   openGraph: {
     title: 'Not found',
     description: 'Such page does not exist.',

@@ -25,6 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Post App',
     description: 'A simple post app built with Next.js, React Query.',
+    url: 'http://localhost:3000/',
     images: [
       {
         url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
@@ -45,7 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${robotoFont.variable}`}>
-      <body>
+      <body className={robotoFont.variable}>
         <TanStackProvider>
           <Header />
           {children}
