@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   title: 'Notes app',
   description: 'A simple note app built with Next.js, React Query',
   openGraph: {
-    title: 'Post App',
-    description: 'A simple post app built with Next.js, React Query.',
-    url: 'http://localhost:3000/',
+    title: 'Notes app',
+    description: 'A simple note app built with Next.js, React Query.',
+    url: 'https://08-zustand-jet-zeta.vercel.app/',
     images: [
       {
         url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
